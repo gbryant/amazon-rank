@@ -1,0 +1,5 @@
+cd ../Amazon
+./build
+cd ../WebPage
+./build
+cd ../AmazonScrape

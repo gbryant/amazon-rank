@@ -1,0 +1,2 @@
+g++ -O3 -c -std=c++0x WebPage.cpp -I $HOME/local/include -L $HOME/local/lib -lcurl -lcares -lxml2 -lz -o WebPage.o
+ar rcs libWebPage.a WebPage.o 

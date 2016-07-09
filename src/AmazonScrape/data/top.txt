@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	<title>Amazon Health & Beauty Ranking</title>
+</head>
+<body>
+	<div class="datagrid">
+	<table>
+		<thead>
+			<tr>
+			<th>Rank</th>
+			<th>ASIN</th>
+			<th>Title</th>
+			</tr>
+		</thead>
+		<tbody>

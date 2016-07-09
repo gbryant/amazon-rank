@@ -1,0 +1,3 @@
+g++ -O3 -std=c++0x AmazonScrape.cpp -o AmazonScrape -I ../WebPage -I ../Amazon -I $HOME/local/include/ -L ../WebPage -L ../Amazon -L $HOME/local/lib/ -lconfig++ -lcurl -lcares -lidn -lssl -lcrypto -lz -lrt -lxml2 -lAmazon -lWebPage -llept -lpthread -ltesseract -lrt -lboost_regex -lboost_system -lboost_thread -lboost_filesystem
+strip --strip-all AmazonScrape
+strip --remove-section=.comment --remove-section=.note AmazonScrape

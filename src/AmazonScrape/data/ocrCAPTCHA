@@ -1,0 +1,12 @@
+#!/bin/bash
+~/local/bin/convert \
+"$1" \
+-scale 200% \
+-brightness-contrast 95x88 \
+-threshold 99% \
+-define convolve:scale=! \
+-morphology Convolve Octagon:2 \
+-sharpen 1 \
+./data/captcha-processed.png
+tesseract -psm 8 ./data/captcha-processed.png ./data/out
+sleep 2

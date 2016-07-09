@@ -1,0 +1,2 @@
+g++ -O3 -c -std=c++0x AmazonItemPage.cpp AmazonResultsPage.cpp -I $HOME/local/include/ -I ../WebPage -L $HOME/local/lib/ -lcurl -lcares -lxml2 -lz -llept -ltesseract
+ar rcs libAmazon.a AmazonItemPage.o AmazonResultsPage.o 
